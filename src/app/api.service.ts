@@ -19,7 +19,7 @@ export class ApiService {
     const { apiURL } = environment;
     let url = `${apiURL}/posts`;
 
-    if(limit) {
+    if (limit) {
       url += `?limit=${limit}`;
     }
 
